@@ -35,3 +35,10 @@ build/
 ### Logs ###
 *.log
 /kafka/kafka-model/src/main/java/com/ysuturin/microservices/demo/kafka/avro/model/TwitterAvroModel.java
+
+### Kafka cluster volumes mapping folders ###
+/infrastructure/docker-compose/volumes/zookeeper/data/**
+/infrastructure/docker-compose/volumes/zookeeper/transactions/**
+/infrastructure/docker-compose/volumes/kafka/broker-1/**
+/infrastructure/docker-compose/volumes/kafka/broker-2/**
+/infrastructure/docker-compose/volumes/kafka/broker-3/**
